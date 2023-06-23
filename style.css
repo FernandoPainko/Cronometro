@@ -1,0 +1,79 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+
+}
+
+body {   
+    width: 100vw;
+    height: 100vh;
+    display:flex;
+    background: url(https://static.vecteezy.com/ti/vetor-gratis/p1/2196508-fundo-preto-e-dourado-luxuoso-vetor.jpg);
+    justify-content: center;
+    align-items: center;
+}
+
+
+nav {
+    display: flex;
+    height: 200px;
+    width: 400px;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(8, 8, 8);
+    flex-direction: column;
+    border-radius: 10px;
+  
+  
+}
+h1{ 
+    color: white;
+    font-weight: 100;
+    margin-bottom: 10px;
+}
+
+button {
+    height: 20px;
+    width: 50px;
+    margin: 10px 5px;
+    background: black;
+    color: aliceblue;
+    border: 1px solid gold;
+    font-size: 10px;
+}
+
+#relogio {
+   
+    background: gold;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    height: 100px;
+    width: 250px;
+    border: 1px solid black;
+    padding: 10px;
+}
+span{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    height: 40px;
+    width: 50px;
+    font-size: 20px;
+    border: 1px solid black;
+    background: #fff;
+}
+p{
+    color: #000;
+    font-size: 30px;
+}
+
+button:hover{
+    opacity: .7;
+}
+button:active{ 
+    background: gold;
+    color:#000;
+}
